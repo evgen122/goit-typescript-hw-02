@@ -1,17 +1,19 @@
-/*
-  Як ви вкажете типи для аргументів і значень цих функцій, що повертаються?
-*/
+/**
+ * Як ви вкажете типи для аргументів і значень цих функцій, що повертаються?
+ *
+ * @format
+ */
 
-function showMessage(message) {
+function showMessage(message: string) {
   console.log(message);
 }
 
-function calc(num1, num2) {
+function calc(num1: number, num2: number): number {
   return num1 + num2;
 }
 
-function customError() {
-  throw new Error('Error');
+function customError(): string {
+  throw new Error("Error");
 }
 
 export {};

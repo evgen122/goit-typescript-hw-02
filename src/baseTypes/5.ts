@@ -1,7 +1,14 @@
-/* 
-  Як ви визначите змінну в TypeScript, яка може приймати рядок або число (union type)? 
-  І так само визначте змінну, яка може приймати тільки одне з двох рядкових значень: 'enable' або 'disable' (literal type)?
-*/
+/**
+ * Як ви визначите змінну в TypeScript, яка може приймати рядок або число (union type)?
+ *   І так само визначте змінну, яка може приймати тільки одне з двох рядкових значень: 'enable' або 'disable' (literal type)?
+ *
+ * @format
+ */
 
-let union;
-let literal;
+enum Status {
+  eneble,
+  disable,
+}
+
+let union: string | number;
+let literal: Status;
