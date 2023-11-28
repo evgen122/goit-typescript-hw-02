@@ -5,10 +5,10 @@
  * @format
  */
 
-enum Gender {
-  male,
-  female,
-}
+type Gender = {
+  male: string;
+  female: string;
+};
 
 let myGender: Gender;
 

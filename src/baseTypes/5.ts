@@ -5,10 +5,7 @@
  * @format
  */
 
-enum Status {
-  eneble,
-  disable,
-}
+type LiteralType = "eneble" | "disable";
 
 let union: string | number;
-let literal: Status;
+let literal: LiteralType;
