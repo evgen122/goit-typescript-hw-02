@@ -6,12 +6,8 @@
  */
 
 interface KeyValuePair {
-  key;
-  value;
-}
-
-class example {
-  constructor(key: [KeyValuePair["key"]], value: [KeyValuePair["value"]]) {}
+  key: any;
+  value: any;
 }
 
 export {};

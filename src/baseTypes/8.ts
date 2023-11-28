@@ -5,11 +5,8 @@
  * @format
  */
 
-type Gender = {
-  male: string;
-  female: string;
-};
+type Gender = "male" | "female";
 
-let myGender: Gender;
+let myGender: Gender = "male";
 
 export {};
