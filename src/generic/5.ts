@@ -6,8 +6,12 @@
  */
 
 interface KeyValuePair {
-  key;
-  value;
+  key: any;
+  value: any;
+}
+
+class example {
+  constructor(key: KeyValuePair, value: KeyValuePair) {}
 }
 
 export {};
