@@ -5,9 +5,9 @@
  * @format
  */
 
-interface KeyValuePair {
-  key: any;
-  value: any;
+interface KeyValuePair<TKey, TValue> {
+  key: TKey;
+  value: TValue;
 }
 
 export {};
